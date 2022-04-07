@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Survey form for microverse</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -21,6 +21,124 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
+<div class="form-container">
+    <h1 id="title">survey form For Microverse </h1>
+    <p><em>thank you for taking the time to help us improve the platform</em></p>
+    <form action="" id="survey-form">
+      <div id="form-group">
+        <label for="name" >Name</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required><br>
+
+
+
+      </div><br>
+
+      <div id="form-group">
+        <label for="Email" >Email</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required><br>
+
+
+
+      </div><br>
+
+      <div id="form-group">
+        <label for="Age" >Age(optional)</label><br>
+        <input type="number" id="age" placeholder="Age"  min="15" max="40" required><br>
+
+
+
+      </div> <br>
+
+      <div id="form-group">
+        <label for="option" >Which option best describes your current role</label><br>
+        <select name="role" id="dropdown" required>
+          <optgroup label="Select current role">
+            <option value="student">Student</option>
+            <option value="Full time Job">Full time Job</option>
+            <option value="Full time learner">Full time learner</option>
+            <option value="prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+
+
+
+          </optgroup>
+
+
+
+        </select>
+
+
+        
+
+
+
+      </div> <br>
+
+      <div id="form-group">
+        <label for="">Would you recommend Microverse to a friend</label> <br>
+        <input type="radio" name="radio-value"checked value="Definitely" required>Definitely <br>
+        <input type="radio" name="radio-value" value="Maybe" required>Maybe <br>
+        <input type="radio" name="radio-value" value="Not Sure" required>Not sure <br>
+        
+
+
+
+      </div> <br>
+
+
+<div id="form-group">
+        <label for="option" >What is your favourite feature of  Microverse?</label><br>
+        <select name="favourite" id="dropdown" required>
+          <optgroup label="Select an option">
+            <option value="challenges">Student</option>
+            <option value="projects">projects</option>
+            <option value="community">projects</option>
+            <option value="open source">open source</option>
+            
+
+
+          </optgroup>
+
+
+
+        </select>
+
+      </div> <br>
+
+      <div id="form-group">
+        <label for="improve">What would like to see improved?</label><br>
+        <input type="checkbox" value="Front-end Projects" name="improve">&nbsp; Front-end Projects <br>
+        <input type="checkbox" value="Back-end Projects" name="improve"> &nbsp; Back-end Projects <br>
+        <input type="checkbox" value="Data visualization" name="improve">&nbsp; Data Visulization <br>
+        <input type="checkbox" value="Challenges" name="improve">&nbsp; Challenges <br>
+        <input type="checkbox" value="Open source Community" name="improve">&nbsp; Open source Commmunity <br>
+        <input type="checkbox" value="Gitter" name="improve">&nbsp; Gitter help rooms <br>
+        <input type="checkbox" value="Videos" name="improve">&nbsp; Videos <br>
+        <input type="checkbox" value="City-meetups" name="improve">&nbsp; City Meetups <br>
+        <input type="checkbox" value="wiki" name="improve">&nbsp; Wiki<br>
+        <input type="checkbox" value="Forum" name="improve">&nbsp; Forum <br>
+        <input type="checkbox" value="Additional-courses" name="improve">&nbsp;Additional Courses <br>
+
+
+
+
+
+      </div><br>
+<div id="form-group">
+
+  <label for="comments">Any comments or suggestions?</label><br>
+  <textarea name="comments" id="" cols="50" rows="5">Enter your comment here ...</textarea>
+
+
+
+</div>
+<input type="submit" value="Submit">
+
+
+ 
+
+    </form>
+  </div>
+ <script  src="js/index.js"></script>
   </body>
 </html>
